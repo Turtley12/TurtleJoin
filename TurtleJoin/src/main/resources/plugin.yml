@@ -1,0 +1,15 @@
+name: TurtleJoin
+main: io.github.turtley12.TurtleJoin.Main
+version: 0.0.1-SNAPSHOT
+author: Turtley12
+api-version: 1.16
+
+commands:
+  turtlejoin:
+    description: Main TurtleJoin Command
+    permission: turtlejoin.admin
+    
+permissions:
+  turtlejoin.admin:
+    description: Access for TurtleJoin admin commands
+    

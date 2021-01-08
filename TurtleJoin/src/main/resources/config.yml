@@ -1,0 +1,26 @@
+#########################################
+# TurtleJoin Java Version               #
+# Made for DragonCraft Minecraft Server #
+#########################################
+
+
+#Whether the plugin teleports players
+enabled: true
+
+
+#define location of teleport
+teleport:
+  #world is a string, must match the name of world folder
+  world: ""
+  #cordinates to teleport to in above world
+  x:
+  y:
+  z:
+  #direction and pitch player will be facing.
+  #If left blank value will be 0
+  yaw:
+  pitch:
+
+#time after last login in seconds before plugin teleports player on join
+#for example, 1 hour is 3600 seconds
+teleport_delay: 3600
